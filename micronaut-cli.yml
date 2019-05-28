@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: mn.kotlin.spock
+---
+testFramework: spock
+sourceLanguage: kotlin
