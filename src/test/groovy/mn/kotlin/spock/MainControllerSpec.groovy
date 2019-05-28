@@ -28,6 +28,6 @@ class MainControllerSpec extends Specification {
         HttpResponse response = client.toBlocking().exchange("/main")
 
         expect:
-        response.status == HttpStatus.OK
+        response.status != HttpStatus.OK
     }
 }
